@@ -311,6 +311,9 @@ body .wrapper2 {
 .summary {
 	margin-top: 2em;
 }
+.summary_content {
+	line-height: 18px;
+}
 .summary_1 {
 	float: none;
 	width: 100%;
