@@ -4,6 +4,11 @@
   --main-darkbeige: #aaa79f;
   --main-black: #111111;
 }
+.working {
+    width: 80%;
+    max-width: 400px;
+    margin: 4em auto;
+}
 /*text*/
 .yellow{
 	color: var(--main-yellow);
@@ -291,6 +296,11 @@ body .wrapper2 {
 body .wrapper2 {
     top: -178px;
     padding: 13em 1em;
+}
+.yellow_title {
+    font-size: 3em;
+    text-align: center;
+
 }
 .one {
     margin: auto;
