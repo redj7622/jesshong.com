@@ -1,12 +1,18 @@
 :root{
-  --main-yellow: #f8b93d;
+  --main-yellow: #f2b33d;
   --main-beige: #e9e7de;
   --main-darkbeige: #dad5c6;
   --main-black: #111111;
 }
 /*text*/
 .yellow{
-	color: #f8b93d;
+	color: var(--main-yellow);
+}
+.m {
+	display: none;
+}
+.clear {
+	float: none;
 }
 body {
     max-width: 1500px;
@@ -40,16 +46,16 @@ body .wrapper {
 }
 body .wrapper2 { 
  width:100%;
- max-width:1300px;
+ max-width:1200px;
  margin:auto auto 2em;
  font-size:17px;
- color:#111111;
+ color: var(--main-black);
  clear: both;
- background: #e9e7de;
+ background: var(--main-beige);
  height: 2000px;
  position: relative;
  top:-7em;
- padding: 9em 0 0;
+ padding: 9em 5em;
  position: relative;
 
 } 
@@ -63,45 +69,175 @@ body .wrapper2 {
 }
 .wrapper::before {
     content: "";
-    border-top: 3px solid #f8b93d;
+    border-top: 2px solid var(--main-yellow);
     display: block;
-    width: 40%;
+    width: 60%;
     position: relative;
     top: 9em;
-    left: -20px;
+    left: -200px;
     z-index: 98;
 }
 .yellow_circle {
 	float: left;
-	width: 220px;
-	margin: auto 1em;
+	width: 200px;
+	margin: auto 1em auto 3em;
 }
-.yellow_circle svg {
-	height:200px;
-	margin:auto;
-}
-
 .info {
 	float: left;
-	width: 77%;
+	width: 70%;
 	padding-top: 20px;
 }
 .greeting {
 	font-size: 1.2em;
 }
+.contacts_top {
+	margin-top: 3em;
+}
+
+.yellow_icon {
+	width: 40px;
+	height: 40px;
+	background: var(--main-yellow);
+	border-radius: 50%;
+	float: left;
+}
+.yellow_icon:hover {
+	background: var(--main-black);
+}
+.my_account {
+    float: left;
+    height: 40px;
+    padding: 10px 3em 0 10px;
+}
 
 
+@media screen and (max-width: 1200px) {
+body .wrapper {
+    width: 90%;
+}
+body .wrapper2 {
+    font-size: 15px;
+    top: -120px;
+    padding: 9em 3em;
+}
+ .wrapper::before {
+    width: 70%;
+    top: 145px;
+}
+ .wrapper h1 {
+    font-size: 1.3em;
+    line-height: 1.2;
+}
+.yellow_circle {
+    margin: auto 1em auto 2em;
+}
+.yellow_icon {
+    width: 35px;
+    height: 35px;
+}
+.contacts_top {
+    margin-top: 55px;
+}
+.my_account {
+    height: 35px;
+    padding: 7px 1em 0 10px;
+    font-size: 15px;
+}
 
-@media screen and (max-width: 1024px) {
 }
 @media screen and (max-width: 768px) {
-	
+.m {
+	 display:block;
+}
+.pc {
+	 display:none;
+}
+body .wrapper { 
+ letter-spacing: 0;
+}
+body .wrapper2 {
+    top: -95px;
+    padding: 8em 3em;
+}
+ .wrapper h1 {
+    font-size: 1.3em;
+    font-weight: 300;
+}
+.greeting {
+    font-size: 1em;
+}
+.one {
+    margin: 1em auto 0;
+}
+ .wrapper::before {
+    width: 70%;
+    left: -50px;
+    top: 90px;
+}
+.info {
+    width: 60%;
+    padding-top: 10px;
+  }
+.yellow_circle {
+    width: 150px;
+    margin: auto 1em auto 1em;
+}
+.yellow_icon {
+    width: 25px;
+    height: 25px;
+}
+.my_account {
+    height: 25px;
+    padding: 2px 10px 0 5px;
+}
+.contacts_top {
+    margin-top: 35px;
+}
+.mail {
+    display: flex;
+}
 }
 @media screen and (max-width: 480px) {
-	.m {
-	 display:block;
-	}
-	.pc {
-	 display:none;
-	}
+body .wrapper2 {
+    top: -178px;
+    padding: 13em 1em;
+}
+.one {
+    margin: auto;
+}
+.yellow_circle {
+	float: none;
+    margin: auto;
+}
+ .wrapper::before {
+    width: 100%;
+    left: 0;
+}
+.info {
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+.my_account {
+	display: none;
+}
+.contacts_top {
+    margin: 12px auto 0;
+    width: 70%;
+}
+.contact_top {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.yellow_icon {
+    width: 30px;
+    height: 30px;
+    margin: auto; 
+    float: none
+}
+.mail {
+    display: block;
+}
 }
