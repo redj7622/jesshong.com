@@ -3,16 +3,20 @@
   --main-beige: #e9e7de;
   --main-darkbeige: #dad5c6;
   --main-black: #111111;
+  --main-gray: #99999a;
 }
 /*text*/
 .yellow{
 	color: var(--main-yellow);
 }
+.ipad {
+	display: none;
+}
 .m {
 	display: none;
 }
 .clear {
-	float: none;
+	clear: both;
 }
 body {
     max-width: 1500px;
@@ -109,11 +113,56 @@ body .wrapper2 {
     height: 40px;
     padding: 10px 3em 0 10px;
 }
+/*summary*/
+.summary_1 {
+	float: left;
+	width: 50%;
+}
+.summary_2 {
+	float: right;
+	width: 45%;
+	padding-left: 1em;
+}
+.summary_title {
+	color: var(--main-yellow);
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+}
+.item_title {
+	font-weight: bold;
+}
+.summary_content {
+	margin-bottom: 1em;
+	line-height: 25px;
+}
 
-
+.item {
+	padding-left: 10px;
+	border-left: 2px solid var(--main-yellow);
+}
+.year {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.notes {
+	color: var(--main-gray);
+	font-size: 14px;
+}
+.tool {
+	width:90px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+}
+.tool img {
+	width: 60px;
+}
 @media screen and (max-width: 1200px) {
 body .wrapper {
     width: 90%;
+    letter-spacing: 0;
 }
 body .wrapper2 {
     font-size: 15px;
@@ -143,17 +192,28 @@ body .wrapper2 {
     padding: 7px 1em 0 10px;
     font-size: 15px;
 }
+/*summary*/
+.summary_content {
+	margin-bottom: 1em;
+	line-height: 20px;
+}
+.tool {
+    width: 18%;
+    letter-spacing: 0;
+    font-size: 11px;
+}
+.tool img {
+    width: 70%;
+}
+
 
 }
 @media screen and (max-width: 768px) {
-.m {
+.ipad {
 	 display:block;
 }
 .pc {
 	 display:none;
-}
-body .wrapper { 
- letter-spacing: 0;
 }
 body .wrapper2 {
     top: -95px;
@@ -165,6 +225,10 @@ body .wrapper2 {
 }
 .greeting {
     font-size: 1em;
+}
+.my_account {
+    padding: 5px 10px 0 5px;
+    font-size: 13px;
 }
 .one {
     margin: 1em auto 0;
@@ -186,18 +250,24 @@ body .wrapper2 {
     width: 25px;
     height: 25px;
 }
-.my_account {
-    height: 25px;
-    padding: 2px 10px 0 5px;
-}
 .contacts_top {
     margin-top: 35px;
 }
-.mail {
-    display: flex;
+
+/*summary*/
+.tool {
+    width: 20%;
+    font-size: 10px;
+}
+.tool img {
+    width: 80%;
+}
+.notes {
+	font-size: 12px;
 }
 }
 @media screen and (max-width: 480px) {
+.ipad { display: none; }
 body .wrapper2 {
     top: -178px;
     padding: 13em 1em;
@@ -237,7 +307,23 @@ body .wrapper2 {
     margin: auto; 
     float: none
 }
-.mail {
-    display: block;
+/*summary*/
+.summary {
+	margin-top: 2em;
+}
+.summary_1 {
+	float: none;
+	width: 100%;
+}
+.summary_2 {
+	float: none;
+	width: 100%;
+	padding-left: 0;
+}
+.item {
+    margin-left: 13px;
+}
+.tool {
+	margin-bottom: 1em;
 }
 }
