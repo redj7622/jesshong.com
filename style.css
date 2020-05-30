@@ -1,13 +1,27 @@
 :root{
   --main-yellow: #f2b33d;
-  --main-beige: #e9e7de;
-  --main-darkbeige: #dad5c6;
+  --main-beige: #eeece4;
+  --main-darkbeige: #aaa79f;
   --main-black: #111111;
-  --main-gray: #99999a;
 }
 /*text*/
 .yellow{
 	color: var(--main-yellow);
+}
+.yellow_title {
+    font-size: 5em;
+    font-weight: 900;
+    color: var(--main-yellow);
+    font-family: 'Roboto', sans-serif;
+}
+.works_title {
+    margin-top: 1em;
+}
+.works_title::after {
+    content: "";
+    border-top: 2px solid var(--main-yellow);
+    display: block;
+    width: 100%;
 }
 .ipad {
 	display: none;
@@ -29,8 +43,7 @@ body .wrapper {
  max-width:1200px;
  margin:auto;
  padding: 0;
- font-family: 'Arimo', sans-serif,"微軟正黑體","Microsoft JhengHei";
- letter-spacing: 1px;
+ font-family: 'Karla', sans-serif;
  clear: both;
 } 
  body .wrapper *{
@@ -52,7 +65,7 @@ body .wrapper2 {
  width:100%;
  max-width:1200px;
  margin:auto auto 2em;
- font-size:17px;
+ font-size:16px;
  color: var(--main-black);
  clear: both;
  background: var(--main-beige);
@@ -99,8 +112,8 @@ body .wrapper2 {
 }
 
 .yellow_icon {
-	width: 40px;
-	height: 40px;
+	width: 35px;
+	height: 35px;
 	background: var(--main-yellow);
 	border-radius: 50%;
 	float: left;
@@ -108,9 +121,12 @@ body .wrapper2 {
 .yellow_icon:hover {
 	background: var(--main-black);
 }
+.profile {
+    line-height: 20px;
+}
 .my_account {
     float: left;
-    height: 40px;
+    height: 35px;
     padding: 10px 3em 0 10px;
 }
 /*summary*/
@@ -147,7 +163,7 @@ body .wrapper2 {
 	font-size: 1.1em;
 }
 .notes {
-	color: var(--main-gray);
+	color: var(--main-darkbeige);
 	font-size: 14px;
 }
 .tool {
@@ -159,10 +175,18 @@ body .wrapper2 {
 .tool img {
 	width: 60px;
 }
+/*logo*/
+.logos {
+    margin-top: 3em;
+}
+.logos img {
+    width: 10%;
+    margin: auto 1%;
+}
+
 @media screen and (max-width: 1200px) {
 body .wrapper {
     width: 90%;
-    letter-spacing: 0;
 }
 body .wrapper2 {
     font-size: 15px;
@@ -180,15 +204,11 @@ body .wrapper2 {
 .yellow_circle {
     margin: auto 1em auto 2em;
 }
-.yellow_icon {
-    width: 35px;
-    height: 35px;
-}
+
 .contacts_top {
     margin-top: 55px;
 }
 .my_account {
-    height: 35px;
     padding: 7px 1em 0 10px;
     font-size: 15px;
 }
