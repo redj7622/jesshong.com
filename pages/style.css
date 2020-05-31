@@ -315,6 +315,7 @@ body .wrapper_works {
     line-height: 27px;
     font-size: 15px;
     position: absolute;
+    top: 0.5em;
 }
 .back_bt:hover {
     height: 27px;
