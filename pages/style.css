@@ -80,7 +80,7 @@ body .wrapper_works img {
 }
 .works_text {
     line-height: 20px;
-    padding-left: 1em;
+
 }
 /*footer*/
 .contact_bottom {
@@ -139,6 +139,16 @@ body .wrapper_works img {
     color: var(--main-yellow);
     font-size: 18px;
 } 
+.timeless_logo {
+    width: 70%;
+    max-width: 800px;
+    margin-top: 2em;
+}
+.timeless_product{
+    width: 70%;
+    float: right;
+
+}
 /*---------------------------------------*/
 @media screen and (max-width: 1200px) {
 body .wrapper_works {
@@ -239,6 +249,25 @@ body .wrapper_works {
     height: 25px;
 }
 }
+/*-------*/
+@media screen and (max-width: 736px) {
+.info {
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+.my_account {
+    display: none;
+}
+.icon_bottom {
+    margin: auto 8%; 
+}
+
+.contact_bottom {
+    padding: 10px 0;
+}
+}
 /*---------------------------------------*/
 @media screen and (max-width: 480px) {
 .ipad { display: none; }
@@ -284,23 +313,18 @@ body .wrapper_works {
     height: auto;
     clear: both;
 }
-.info {
+.timeless_logo {
     width: 100%;
-    padding-top: 5px;
-    text-align: center;
-  }
-
-.my_account {
-	display: none;
+    margin: 2em 0 1em;
 }
+.timeless_product{
+    width: 100%;
+    float: none;
 
+}
 .icon_bottom {
     width: 30px;
     height: 30px;
     margin: auto 5%; 
 }
-.contact_bottom {
-    padding: 10px 0;
-}
-
 }
