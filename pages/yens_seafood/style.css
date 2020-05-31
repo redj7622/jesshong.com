@@ -240,17 +240,27 @@ body .wrapper_works {
 @media screen and (max-width: 480px) {
 .ipad { display: none; }
 .m {display: block;}
-body .wrapper2 {
-    top: -178px;
-    padding: 13em 1em 5em;
+
+.yellow {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.works_content {
+    padding: 0 1em;
+}
+.works_text {
+    padding-left: 0;
+    font-size: 15px;
 }
 .yellow_title {
     font-size: 2em;
-    text-align: center;
     line-height: 25px;
 }
 .works_title2 {
     top: -15px;
+}
+.works_title2::after {
+    margin-top: 10px;
 }
 .yens_logo {
     float: none;
