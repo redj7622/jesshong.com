@@ -201,7 +201,6 @@ body .wrapper2 {
     -o-filter: grayscale(1);
     -ms-filter: grayscale(1);
     transition: all 300ms ease-in-out;
-   
 }
 .cover_left {
     margin: 1em 1% 1em 0;    
@@ -224,7 +223,6 @@ body .wrapper2 {
 .work_text {
     width: 100%;
     background: rgba(255, 204, 51, 0.7);
-    position: absolute;
     height: 60px;
     margin-top: 4em;
     padding-top: 10px;
