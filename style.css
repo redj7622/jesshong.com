@@ -534,13 +534,15 @@ body .wrapper2 {
 }
 .work_text {
     height: 45px;
-    margin-top: 5em;
-    background: rgba(255, 204, 51, 0.9);
+    margin-top: 0;
+    background: rgba(255, 204, 51, 0.8);
+    top: 5em;
+    position: relative;
 }
 .cover_title {
     font-size: 1.8em;
     width: 100%;
-    position: relative;;
+    position: relative;
 }
 .cover_left, .cover_middle, .cover_right {
     margin: 2em auto 0;    
