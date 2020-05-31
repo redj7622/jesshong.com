@@ -540,6 +540,8 @@ body .wrapper2 {
 }
 .cover_title {
     font-size: 1.8em;
+    width: 100%;
+    position: relative;;
 }
 .cover_left, .cover_middle, .cover_right {
     margin: 2em auto 0;    
