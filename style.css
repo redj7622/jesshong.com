@@ -380,7 +380,7 @@ body .wrapper2 {
 .one {
     margin: 1em auto 0;
 }
- .wrapper::before {
+.wrapper::before {
     width: 70%;
     left: -50px;
     top: 90px;
@@ -416,7 +416,7 @@ body .wrapper2 {
 /*works*/
 .work_cover{
     height: 125px;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
