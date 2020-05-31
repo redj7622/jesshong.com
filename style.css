@@ -517,6 +517,9 @@ body .wrapper2 {
 .tool {
 	margin-bottom: 1em;
 }
+.ending img {
+    width: 200px;
+}
 /*works*/
 .work_cover {
     height: 150px;
