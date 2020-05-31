@@ -537,6 +537,7 @@ body .wrapper2 {
 .work_text {
     height: 45px;
     margin-top: 5em;
+    background: rgba(255, 204, 51, 0.9);
 }
 .cover_title {
     font-size: 1.8em;
