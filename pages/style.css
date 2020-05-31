@@ -4,6 +4,26 @@
   --main-darkbeige: #aaa79f;
   --main-black: #111111;
 }
+/*back*/
+.back_bt {
+    background: var(--main-yellow);
+    color: #ffffff;
+    width: 35px;
+    height: 150px;
+    position: fixed;
+    right: 6em;
+    top: 0;
+    transition: all 300ms ease-in-out;
+    writing-mode: vertical-lr;
+    text-align: end;
+    line-height: 32px;
+    padding: 0 0 1em 0;
+}
+.back_bt:hover {
+    background: var(--main-black);
+    height: 200px;
+    transition: all 200ms ease-in-out;
+}
 /*text*/
 .yellow_title {
     font-size: 5em;
@@ -184,6 +204,25 @@ body .wrapper2 {
 }
 /*---------------------------------------*/
 @media screen and (max-width: 800px) {
+.back_bt {
+    width: 180px;
+    height: 35px;
+    right: 0;
+    top: 1em;
+    writing-mode: horizontal-tb;
+    text-align: left;
+    line-height: 35px;
+    padding: 0 0 0 1em;
+}
+.back_bt:hover {
+    height: 35px;
+    transition: all 300ms ease-in-out;
+}
+.back_bt:active {
+    height: 35px;
+    transition: all 300ms ease-in-out;
+    background: var(--main-black); 
+}
 .ipad {
 	 display:block;
 }
@@ -270,6 +309,21 @@ body .wrapper_works {
 }
 /*---------------------------------------*/
 @media screen and (max-width: 480px) {
+.back_bt {
+    width: 135px;
+    height: 27px;
+    line-height: 27px;
+    font-size: 15px;
+    position: absolute;
+}
+.back_bt:hover {
+    height: 27px;
+    background: var(--main-black); 
+}
+.back_bt:active {
+    height: 27px;
+    background: var(--main-black); 
+}
 .ipad { display: none; }
 .m {display: block;}
 
