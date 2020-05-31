@@ -345,7 +345,7 @@ body .wrapper2 {
 }
 /*footer*/
 .contact_bottom {
-    margin: -8em auto 3em;
+    margin: -8em auto 0;
     padding: 10px 0;
 }
 .contact_bottom_icons {
