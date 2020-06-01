@@ -41,6 +41,10 @@
     display: block;
     width: 60%;
 }
+.right_box .works_title2::after, .left_box .works_title2::after {
+    width: 100%;
+}
+
 .ipad {
 	display: none;
 }
@@ -188,6 +192,11 @@ body .wrapper_works img {
     width: 100%;
     margin-top: 1em;
 }
+.web_content {
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 0em;
+}
 /*---------------------------------------*/
 @media screen and (max-width: 1200px) {
 .back_bt {
@@ -312,6 +321,9 @@ body .wrapper_works {
     width: 25px;
     height: 25px;
 }
+.web_content {
+    margin-top: 3em;
+}
 }
 /*-------*/
 @media screen and (max-width: 736px) {
@@ -378,6 +390,9 @@ body .wrapper_works {
 .works_title2::after {
     margin-top: 10px;
 }
+.works_title3 {
+    top: 0;
+}
 .yens_logo {
     float: none;
     width: 80%;
@@ -413,7 +428,10 @@ body .wrapper_works {
 .papercutting {
     padding: 0;
 }
-
+.web_content {
+    margin: 0;
+    width: 100%;
+}
 .icon_bottom {
     width: 30px;
     height: 30px;
