@@ -344,7 +344,9 @@ body .wrapper_works {
     background: var(--main-black); 
 }
 .ipad { display: none; }
-
+.pc2 {
+     display:none;
+}
 .m {display: block;}
 
 .yellow {
