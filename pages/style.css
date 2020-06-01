@@ -9,7 +9,7 @@ body {
 }
 /*back*/
 .back_bt {
-    background: #ffffff;
+    background: var(--main-yellow);
     color: #ffffff;
     width: 35px;
     height: 150px;
@@ -72,7 +72,7 @@ body .wrapper_works {
     font-weight: lighter;
     letter-spacing: 1px;
     clear: both;
-    background: var(--main-beige);
+    background: #ffffff;
     margin: 8em auto auto;
 } 
  body .wrapper_works * {
