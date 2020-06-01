@@ -40,12 +40,14 @@ body {
     margin: auto;
 }
 body .wrapper { 
- width:100%;
- max-width:1200px;
- margin:auto;
- padding: 0;
- font-family: 'Karla', sans-serif;
- clear: both;
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    clear: both;
 } 
  body .wrapper *{
  	box-sizing:border-box; 
@@ -364,6 +366,7 @@ body .wrapper2 {
 body .wrapper2 {
     top: -95px;
     padding: 8em 3em 5em;
+    letter-spacing: 0px;
 }
  .wrapper h1 {
     font-size: 1.3em;
@@ -458,6 +461,7 @@ body .wrapper2 {
     top: -178px;
     padding: 13em 1em 5em;
 }
+
 .yellow_title {
     font-size: 3em;
     text-align: center;
