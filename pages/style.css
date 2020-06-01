@@ -116,7 +116,7 @@ body .wrapper_works img {
     position: relative;
 }
 .contact_bottom_icons {
-    width: 620px;
+    width: 750px;
     margin: auto;
 }
 .icon_bottom {
@@ -228,7 +228,9 @@ body .wrapper2 {
 .contact_bottom {
     padding: 10px 0;
 }
-
+.contact_bottom_icons {
+    width: 620px;
+}
 }
 /*---------------------------------------*/
 @media screen and (max-width: 812px) {
