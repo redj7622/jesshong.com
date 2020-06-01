@@ -116,8 +116,7 @@ body .wrapper_works img {
     position: relative;
 }
 .contact_bottom_icons {
-    width: 65%;
-    max-width: 620px;
+    width: 620px;
     margin: auto;
 }
 .icon_bottom {
@@ -229,9 +228,6 @@ body .wrapper2 {
 .contact_bottom {
     padding: 10px 0;
 }
-.contact_bottom_icons {
-    width: 55%;
-}
 
 }
 /*---------------------------------------*/
@@ -314,9 +310,6 @@ body .wrapper_works {
 .cover_right {
     margin: 1em 0 0 1%;  
     float: right;  
-}
-.contact_bottom_icons {
-    width: 65%;
 }
 .icon_bottom {
     width: 25px;
@@ -437,5 +430,8 @@ body .wrapper_works {
     width: 30px;
     height: 30px;
     margin: auto 5%; 
+}
+.contact_bottom_icons {
+    width: 200px;
 }
 }
