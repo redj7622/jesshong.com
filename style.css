@@ -284,7 +284,7 @@ body .wrapper2 {
     position: relative;
 }
 .contact_bottom_icons {
-    width: 620px;
+    width: 750px;
     margin: auto;
 }
 .icon_bottom {
@@ -350,7 +350,9 @@ body .wrapper2 {
     margin: -8em auto 0;
     padding: 10px 0;
 }
-
+.contact_bottom_icons {
+    width: 620px;
+}
 }
 /*---------------------------------------*/
 @media screen and (max-width: 800px) {
