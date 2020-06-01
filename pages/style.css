@@ -156,10 +156,12 @@ body .wrapper_works img {
     padding: 0 1em 1em; 
     margin-top: 1em;
 }
-.yellow{
+.yellow {
     color: var(--main-yellow);
     font-size: 18px;
-} 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 .timeless_logo {
     width: 70%;
     max-width: 800px;
