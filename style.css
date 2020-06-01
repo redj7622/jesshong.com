@@ -284,8 +284,7 @@ body .wrapper2 {
     position: relative;
 }
 .contact_bottom_icons {
-    width: 65%;
-    max-width: 620px;
+    width: 620px;
     margin: auto;
 }
 .icon_bottom {
@@ -350,9 +349,6 @@ body .wrapper2 {
 .contact_bottom {
     margin: -8em auto 0;
     padding: 10px 0;
-}
-.contact_bottom_icons {
-    width: 55%;
 }
 
 }
@@ -447,9 +443,6 @@ body .wrapper2 {
 .cover_right {
     margin: 1em 0 0 1%;  
     float: right;  
-}
-.contact_bottom_icons {
-    width: 75%;
 }
 .icon_bottom {
     width: 25px;
@@ -552,6 +545,9 @@ body .wrapper2 {
 }
 .cover_left, .cover_middle, .cover_right {
     margin: 2em auto 0;    
+}
+.contact_bottom_icons {
+    width: 200px;
 }
 .contact_bottom {
     margin: -13em auto 0;
