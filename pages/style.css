@@ -4,9 +4,12 @@
   --main-darkbeige: #aaa79f;
   --main-black: #111111;
 }
+body {
+    background: var(--main-beige);
+}
 /*back*/
 .back_bt {
-    background: var(--main-yellow);
+    background: #ffffff;
     color: #ffffff;
     width: 35px;
     height: 150px;
