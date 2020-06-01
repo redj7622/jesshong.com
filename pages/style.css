@@ -117,6 +117,7 @@ body .wrapper_works img {
 }
 .contact_bottom_icons {
     width: 65%;
+    max-width: 620px;
     margin: auto;
 }
 .icon_bottom {
