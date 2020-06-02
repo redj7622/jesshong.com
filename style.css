@@ -412,6 +412,9 @@ body .wrapper2 {
 .one {
     margin: -4.5em auto 0;
 }
+.profile {
+    font-size: 13px;
+}
 .info {
     width: 60%;
     padding-top: 10px;
