@@ -7,7 +7,30 @@
 body {
     background: var(--main-beige);
 }
+.banner {
+    background: var(--main-yellow);
+    width: 100%;
+    height: 400px;
+    display: block;
+    line-height: 0;
+}
+.list {
+    color: var(--main-black);
+    position: fixed;
+    right: 90px;
+    top: 0;
+    writing-mode: vertical-rl;
+    padding: 1em 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    display: none;
+}
 /*text*/
+.white {
+    color: #ffffff;
+    font-size: 18px;
+}
 .yellow{
     color: var(--main-yellow);
     font-size: 18px;
@@ -82,23 +105,14 @@ body .wrapper2 {
 } 
 
 .one {
-    width:100%;
+    width: 100%;
     max-width: 1300px;
-    margin: 2em auto 0;
-    overflow:hidden;
+    margin: -6em auto 0;
+    overflow: hidden;
     position: relative;
     z-index: 99;
 }
-.wrapper::before {
-    content: "";
-    border-top: 2px solid var(--main-yellow);
-    display: block;
-    width: 60%;
-    position: relative;
-    top: 9em;
-    left: -200px;
-    z-index: 98;
-}
+
 .yellow_circle {
     float: left;
     width: 200px;
@@ -113,7 +127,7 @@ body .wrapper2 {
     font-size: 1.2em;
 }
 .contacts_top {
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 .yellow_icon {
@@ -316,6 +330,10 @@ body .wrapper2 {
     top: -120px;
     padding: 9em 3em 3em;
 }
+.list {
+    right: 65px;
+    font-size: 24px;
+}
  .wrapper::before {
     width: 70%;
     top: 145px;
@@ -326,10 +344,6 @@ body .wrapper2 {
 }
 .yellow_circle {
     margin: auto 1em auto 2em;
-}
-
-.contacts_top {
-    margin-top: 55px;
 }
 .my_account {
     padding: 10px 1em 0 10px;
@@ -348,6 +362,11 @@ body .wrapper2 {
 .tool img {
     width: 70%;
 }
+/*works*/
+.work_cover {
+    height: 170px;
+    background-size: cover;
+}
 /*footer*/
 .contact_bottom {
     margin: -8em auto 0;
@@ -364,6 +383,14 @@ body .wrapper2 {
 }
 .pc {
      display:none;
+}
+.banner {
+    height: 300px;
+}
+.list {
+    position: fixed;
+    right: 3em;
+    font-size: 18px;
 }
 body .wrapper2 {
     top: -95px;
@@ -383,12 +410,7 @@ body .wrapper2 {
     font-size: 13px;
 }
 .one {
-    margin: 1em auto 0;
-}
-.wrapper::before {
-    width: 70%;
-    left: -50px;
-    top: 90px;
+    margin: -4em auto 0;
 }
 .info {
     width: 60%;
@@ -439,6 +461,9 @@ body .wrapper2 {
 .contact_bottom {
     padding: 10px 0 0;
 }
+.contact_bottom_icons {
+    width: 500px;
+}
 .cover_left {
     margin: 1em 1% 0 0;    
 }
@@ -453,6 +478,9 @@ body .wrapper2 {
     width: 25px;
     height: 25px;
 }
+.ending img {
+    width: 230px;
+}
 }
 /*---------------------------------------*/
 @media screen and (max-width: 480px) {
@@ -461,22 +489,20 @@ body .wrapper2 {
     top: -178px;
     padding: 13em 1em 5em;
 }
-
+.list {
+    display: none;
+}
 .yellow_title {
     font-size: 3em;
     text-align: center;
 
 }
 .one {
-    margin: auto;
+    margin: -8em auto 0;
 }
 .yellow_circle {
     float: none;
     margin: auto;
-}
- .wrapper::before {
-    width: 100%;
-    left: 0;
 }
 .info {
     width: 100%;
@@ -489,7 +515,7 @@ body .wrapper2 {
 }
 .contacts_top {
     margin: 12px auto 0;
-    width: 70%;
+    width: 250px;
 }
 .yellow_icon {
     width: 30px;
