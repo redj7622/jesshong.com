@@ -10,26 +10,69 @@ body {
 .banner {
     background: var(--main-yellow);
     width: 100%;
-    height: 400px;
+    height: 450px;
     display: block;
     line-height: 0;
+    overflow: hidden;
+}
+.banner .cats {
+    position: relative;
+    top: -3em;
+    background: url(https://redj7622.github.io/image/web_banner.svg) center no-repeat;
+        background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+.banner .flower {
+    position: absolute;
+    animation:float 1.2s infinite alternate;
+    width: 100%;
+}
+@keyframes float {
+  from{transform: translateY(-10px);}
+  to{transform: translateY(-15px);}
 }
 .list {
     color: var(--main-black);
     position: fixed;
-    right: 90px;
+    right: 70px;
     top: 0;
     writing-mode: vertical-rl;
     padding: 1em 0 0 0;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    display: none;
+    font-weight: 600;
+    font-size: 30px;
+    list-style: none;
+        list-style-type: none;
+    list-style-type: none;
+    z-index: 2;
+    letter-spacing: 0;
+}
+.list li {
+    float: left;
+    padding: 5px 3px 5px 0;
+    line-height: 35px;
+    transition: all 200ms ease-in-out;
+}
+.list li:hover {
+    color: #ffffff;
+    background: var(--main-black);
+    float: left;
+    transition: all 200ms ease-in-out;
+    
+}
+.list li:nth-child(even) {
+    content: "";
+    border-right: 2px solid var(--main-black);
+    height: 50px;
+    margin: 5px 19px 5px 0;
 }
 /*text*/
 .white {
     color: #ffffff;
     font-size: 18px;
+    font-weight: bold;
 }
 .yellow{
     color: var(--main-yellow);
@@ -88,7 +131,7 @@ body .wrapper {
     border-bottom: none;
     padding-bottom: unset;
     margin: auto;
-    font-weight: 400;
+    font-weight: 600;
 }
 body .wrapper2 { 
  width:100%;
@@ -106,8 +149,8 @@ body .wrapper2 {
 
 .one {
     width: 100%;
-    max-width: 1300px;
-    margin: -6em auto 0;
+    max-width: 1100px;
+    margin: -6em 0 0;
     overflow: hidden;
     position: relative;
     z-index: 99;
@@ -330,9 +373,19 @@ body .wrapper2 {
     top: -120px;
     padding: 9em 3em 3em;
 }
+.banner {
+    height: 400px;
+}
+.banner .cats {
+    top: -3em;
+    height: 400px;
+}
 .list {
-    right: 65px;
+    right: 50px;
     font-size: 24px;
+}
+.one {
+    max-width: 950px;
 }
  .wrapper::before {
     width: 70%;
@@ -377,6 +430,33 @@ body .wrapper2 {
 }
 }
 /*---------------------------------------*/
+@media screen and (max-width: 1024px) {
+.banner .cats {
+    top: -4em;
+}
+@keyframes float {
+  from{transform: translateY(15px);}
+  to{transform: translateY(10px);}
+}
+.list {
+    font-size: 18px;
+    writing-mode: unset;
+    right: 60px;
+    top: -30px;
+}
+.list li {
+    padding: 0 5px;
+}
+.list li:nth-child(even) {
+    content: "";
+    border-right: none;
+    height: 0;
+    margin: 15px 5px 0;
+    border-top: 2px solid var(--main-black);
+    width: 40px;
+}
+}
+/*---------------------------------------*/
 @media screen and (max-width: 800px) {
 .ipad {
      display:block;
@@ -387,10 +467,9 @@ body .wrapper2 {
 .banner {
     height: 300px;
 }
-.list {
-    position: fixed;
-    right: 3em;
-    font-size: 18px;
+.banner .cats {
+    top: -3em;
+    height: 300px;
 }
 body .wrapper2 {
     top: -95px;
@@ -399,7 +478,7 @@ body .wrapper2 {
 }
  .wrapper h1 {
     font-size: 1.3em;
-    font-weight: 300;
+    font-weight: 500;
 }
 .greeting {
     font-size: 1em;
@@ -413,7 +492,7 @@ body .wrapper2 {
     margin: -4.5em auto 0;
 }
 .profile {
-    font-size: 14px;
+    font-size: 15px;
 }
 .info {
     width: 60%;
@@ -486,11 +565,26 @@ body .wrapper2 {
 }
 }
 /*---------------------------------------*/
+@media screen and (max-width: 700px) {
+
+}
+/*---------------------------------------*/
 @media screen and (max-width: 480px) {
 .ipad { display: none; }
 body .wrapper2 {
     top: -178px;
     padding: 13em 1em 5em;
+}
+.banner {
+    height: 250px;
+}
+.banner .cats {
+    top: -3.5em;
+    height: 250px;
+    background: url(https://redj7622.github.io/image/m_banner.svg) center no-repeat;
+}
+.flower {
+    display: none;
 }
 .list {
     display: none;
