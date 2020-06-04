@@ -139,66 +139,27 @@ body .wrapper_works img {
     font-family: 'Karla', sans-serif;
 }
 
-.yens_logo {
-    width: 30%;
-    height: 300px;
-    float: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2em auto;
-}
-.yens_img {
-    width: 40%;
-    height: 340px;
-    float: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-}
-.yenscard {
-    width: 50%;
-    float: left;
-    padding: 0 1em 1em; 
-    margin-top: 1em;
-}
 .yellow {
     color: var(--main-yellow);
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.timeless_logo {
-    width: 70%;
-    max-width: 800px;
-    margin-top: 2em;
-}
-.timeless_product{
-    width: 70%;
-    float: right;
-}
 .left_box {
     width: 50%;
     float: left;
-    margin-top: 2em;
-}
-.papercutting {
-    padding: 0 2em 2em;
+    margin-bottom: 1em;
+    padding-right: 0.5em;
 }
 .right_box {
     width: 50%;
     float: right;
-    margin-top: 2em;
+    margin-bottom: 1em;
+    padding-left: 0.5em;
 }
 .full_box {
     width: 100%;
     margin-bottom: 1em;
-}
-.web_content {
-    width: 45%;
-    margin-left: 5%;
-    margin-top: 0em;
 }
 /*more*/
 .more_bt {
@@ -238,15 +199,6 @@ body .wrapper2 {
 .my_account {
     padding: 10px 1em 0 10px;
     font-size: 15px;
-}
-.yens_logo {
-    height: 250px;
-}
-.yens_img {
-    height: 300px;
-}
-.yenscard {
-    margin-top: 0;
 }
 /*footer*/
 .contact_bottom {
@@ -313,13 +265,6 @@ body .wrapper_works {
     padding-top: 10px;
     font-weight: bold;
   }
-.yens_logo {
-    height: 150px;
-}
-.yens_img {
-    height: 200px;
-}
-
 .notes {
 	font-size: 12px;
 }
@@ -413,44 +358,12 @@ body .wrapper_works {
 .works_title3 {
     top: 0;
 }
-.yens_logo {
-    float: none;
-    width: 80%;
-    margin:1em auto;
-    padding:0;
-    display: block;
-    height: auto;
-    clear: both;
-}
-.yenscard, .yens_img {
-    float: none;
-    width: 100%;
-    margin:1em auto;
-    padding:0;
-    display: block;
-    height: auto;
-    clear: both;
-}
-.timeless_logo {
-    width: 100%;
-    margin: 2em 0 1em;
-}
-.timeless_product{
-    width: 100%;
-    float: none;
-}
-.tea{ display: none; } 
+
 .left_box,.right_box {
     width: 100%;
     float: none;
     margin-top: 1em;
-}
-.papercutting {
-    padding: 0;
-}
-.web_content {
-    margin: 0;
-    width: 100%;
+    padding:0;
 }
 .icon_bottom {
     width: 30px;
