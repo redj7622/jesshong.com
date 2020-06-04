@@ -291,7 +291,7 @@ body .wrapper_works {
 }
 }
 /*-------*/
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 768px) {
 .info {
     width: 100%;
     padding-top: 5px;
