@@ -191,7 +191,7 @@ body .wrapper2 {
 .my_account {
     float: left;
     height: 35px;
-    padding: 10px 3em 0 5px;
+    padding: 7px 3em 0 5px;
     font-weight: normal;
 }
 /*summary*/
@@ -345,7 +345,7 @@ body .wrapper2 {
     position: relative;
 }
 .contact_bottom_icons {
-    width: 750px;
+    width: 760px;
     margin: auto;
 }
 .icon_bottom {
