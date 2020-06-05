@@ -48,6 +48,7 @@ body {
     list-style-type: none;
     z-index: 2;
     letter-spacing: 0;
+    display: none;
 }
 .list li {
     float: left;
