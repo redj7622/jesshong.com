@@ -350,10 +350,6 @@ body .wrapper_works {
 .web_content {
     margin-top: 3em;
 }
-/*flip box9*/
-.flip-box {
-    height: 190px;
-}
 }
 /*-------*/
 @media screen and (max-width: 768px) {
