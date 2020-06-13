@@ -345,6 +345,9 @@ body .wrapper_works {
     float: right;  
 }
 .icon_bottom {
+    margin: auto 10%; 
+}
+.icon_bottom {
     width: 25px;
     height: 25px;
 }
@@ -363,9 +366,7 @@ body .wrapper_works {
 .my_account {
     display: none;
 }
-.icon_bottom {
-    margin: auto 8%; 
-}
+
 
 .contact_bottom {
     padding: 10px 0;
