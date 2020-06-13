@@ -435,8 +435,6 @@ body .wrapper_works {
     clear: both;
     width: 100%;
     margin: auto;
-    display: block;
-    flex-wrap: wrap;
 }
 
 .flip-box {
