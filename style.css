@@ -473,7 +473,8 @@ body .wrapper2 {
      display:none;
 }
 .list {
-    top: 10px;
+    top: 5px;
+    left: 3%;
 }
 body .wrapper2 {
     padding: 1em 3em 3em;
@@ -621,7 +622,9 @@ body .wrapper2 {
     padding: 1em 0 0;
     position: relative;
     top: 0;
-    right: 0;
+    left: 0;
+    font-size: 18px;
+    letter-spacing: 0;
 }
 body .background_img {
     background: none;
