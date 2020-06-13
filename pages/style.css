@@ -88,8 +88,11 @@ body .wrapper_works img {
 .my_account {
     float: left;
     height: 35px;
-    padding: 10px 3em 0 5px;
+    padding: 0 3em 0 5px;
     font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .summary_title {
@@ -304,7 +307,7 @@ body .wrapper2 {
 }
 
 .my_account {
-    padding: 10px 1em 0 10px;
+    padding: 0 1em 0 10px;
     font-size: 15px;
 }
 /*summary*/
